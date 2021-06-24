@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form class="search-form" name="searchingForm">
+  <div class="search-form__item">
+    <span>Title:</span>
+    <input type="text" name="title">
+  </div>
+  <div class="search-form__item">
+    <span>Type:</span>
+    <select name="type">
+        <option value="movie">Movie</option>
+        <option value="series">Series</option>
+        <option value="episode">Episode</option>
+    </select>
+  </div>
+  <button type="button" name="btnSearch">Search</button>
+</form>
+
+<div class="wrap" id="wrap"></div>
+<div class="pages" id="pages"></div>
+
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>

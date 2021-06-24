@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/modalWindow.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layout">
+  <header>
+    <div class="menu">
+      <div class="item">
+        <button class="menu__item-active" type="button" name="books">Books</button>
+        <button type="button" name="visitors">Visitors</button>
+      </div>
+      <div class="item">
+        <button type="button" name="cards">Cards</button>
+        <button type="button" name="statistics">Statistics</button>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="control__container">
+      <h2 id="all"></h2>
+      <button type="button" id="add"></button>
+    </div>
+    <hr>
+    <div class="control__container">
+      <div class="control-form__container">
+        <form>
+          <label>
+            <span id="span">Sort by:</span>
+            <select id="sorting"></select>
+          </label>
+        </form>
+      </div>
+      <div class="control-form__container">
+        <form name="searchform" id="searchform">
+          <label>
+            <span>Search:</span>
+            <input type="text" name="text">
+            <button type="button" name="search">Search</button>
+          </label>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <section id="books">
+    <div class="container-books" id="container-books"></div>
+  </section>
+
+  <section class="hidden" id="visitors">
+    <div class="container-visitors" id="container-visitors"></div>
+  </section>
+
+  <section class="hidden" id="cards">
+    <div class="container-cards" id="container-cards"></div>
+  </section>
+
+  <section class="hidden" id="statistics">
+    <div class="container-statistics" id="container-statistics"></div>
+  </section>
+
+</div>
+<script src="js/compare.js"></script>
+<script src="js/statistic.js"></script>
+<script src="js/card.js"></script>
+<script src="js/cardStorage.js"></script>
+<script src="js/visitor.js"></script>
+<script src="js/visitorStorage.js"></script>
+<script src="js/book.js"></script>
+<script src="js/modalWindow.js"></script>
+<script src="js/bookStorage.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>

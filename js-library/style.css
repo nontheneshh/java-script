@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.layout{
+  max-width: 1220px;
+  margin: 0 auto;
+}
+body{}
+section{
+  max-width: 1220px;
+  width: 80%;
+  margin: 0 auto;
+}
+header{
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+.menu{
+  margin: 0 auto 50px auto;
+  background-color: #404040;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.menu button{
+  padding: 10px;
+  width: 150px;
+  background-color: #404040;
+  font-weight: bold;
+  color: lightgray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.item{
+  display: flex;
+}
+.menu__item-active{
+  border-bottom: 4px solid blue;
+}
+.hidden{
+  display: none;
+}
+
+.table-cell-clickable{
+  cursor: pointer;
+  background-color: #e5e5e5;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 15px 15px -9px gray;
+  text-align: center;
+}
+
+th,
+td{
+  border: 1px solid black;
+  padding: 5px;
+}
+table caption{
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+.control__container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0 20px 0;
+}
+
+.control-form__container{}
+
+.control-form__container form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.control-form__container form label{
+  margin-bottom: 10px;
+  display: flex;
+  position: relative;
+}
+.control-form__container form button{
+  padding: 4px 20px;
+}
+.control-form__container form label input,
+.control-form__container form label select{
+  width: 200px;
+  margin-left: 80px;
+  padding: 4px;
+}
+
+.control-form__container form label span{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
