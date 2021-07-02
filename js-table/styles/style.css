@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+
+  .layout{
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+  
+  table{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 15px 15px -9px gray;
+    text-align: center;
+  }
+  
+  th,
+  td{
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+#add-row{
+  padding: 25px 50px;
+  margin: 20px auto;
+  display: block;
+}
+
+  .dragging{
+    opacity: 0,4;
+    background-color: crimson;
+  }
+  .drag-hover{
+    opacity: 0.9;
+    background-color: yellow;
+  }
+
+  .invalid{
+    color: red;
+  }
+
+
+  .tmp-input{
+    width: 100%;
+    height: 100%;
+
+    display: block;
+  }
